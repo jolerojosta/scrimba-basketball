@@ -1,0 +1,31 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/segment7" type="text/css"/>
+    </head>
+    <body>
+        <div class="container">
+            <div class="column" >
+                <h3>HOME</h3>
+                <h2 class="score" id="home-score">0</h2>
+                <div>
+                    <button onclick="increment('home',1)">+1</button>
+                    <button onclick="increment('home',2)">+2</button>
+                    <button onclick="increment('home',3)">+3</button>
+                </div>
+            </div>
+            <div class="column">
+                <h3>GUEST</h3>
+                <h2 class="score" id="guest-score">0</h2>
+                <div>
+                    <button onclick="increment('guest',1)">+1</button>
+                    <button onclick="increment('guest',2)">+2</button>
+                    <button onclick="increment('guest',3)">+3</button>
+                </div>
+            </div>
+            
+        </div>
+        <button class="button1" id="reset" onclick="reset()">RESET</button>
+        <script src="index.js"></script>
+    </body>
+</html>

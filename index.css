@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    background-color: #1B244A
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+h3{
+    color: #EEEEEE;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    text-align: center;
+}
+h2 {
+   font-family: 'Segment7Standard';
+   font-size: 90px;
+    color: #F94F6D;
+    width: 120px;
+    margin: 20px;
+    
+}
+
+.score {
+    background: #0a0001;
+    font-size: 90px;
+    color: #F94F6D;
+    width: 120px;
+    margin: 20px;
+    border-radius: 5px;
+    width: 155px;
+    height: 90px;
+    left: 82px;
+    text-align: center;
+}
+
+button{
+    font-family: 'Segment7Standard';
+    font-size: 20px;
+    color: #9AABD8;
+    background-color: #1B244A;
+    border-radius: 5px;
+    border: 2px solid #9AABD8;
+    width: 45px;
+    position: relative;
+    height: 45px;
+    left: 17px;
+    margin: 3px;
+}
+
+.button1
+{
+    position: relative;
+    width: 200px;
+    margin: 30px;
+    font-size: 30px;
+    left: 120px;
+    height: 60px;
+}
+.div
+{
+   margin: auto;
+}
+
