@@ -58,11 +58,14 @@ button{
     width: 200px;
     margin: 30px;
     font-size: 30px;
-    left: 120px;
     height: 60px;
+
 }
 .div
 {
    margin: auto;
 }
+.button-container-div {
+            text-align: center;
+        }
 
